@@ -84,8 +84,9 @@ function getNewArticleNext() {
     $.get('/next', function (data) {
         $('#passage').val(data.article);
         $('#question').val(data.question);
-        $('#max-article').val('/' + data.maxArticle);
         articleId = data.article_id;
+        $("#page_id").val(articleId);
+        $('#max-article').val('/' + data.maxArticle);
         
     });
 }
@@ -96,8 +97,10 @@ function getNewArticlePrev() {
         $('#passage').val(data.article);
         $('#question').val(data.question);
         articleId = data.article_id;
+        $("#page_id").val(articleId);
         maxArticle = data.maxArticle;
     });
+
 }
 
 function switchArticleNow() {
