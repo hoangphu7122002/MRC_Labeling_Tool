@@ -2,7 +2,7 @@
 #### Input file (write in directory dataset):
 ```bash
 sample file: test.json
-format: [{"question":"test","answer":"test}]
+format: [{"question":"test","answer":"test"}]
 ```
 
 #### Run tool:
