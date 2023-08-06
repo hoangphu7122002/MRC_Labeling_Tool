@@ -1,2 +1,16 @@
 # MRC_Labeling_Tool
-This tool helps the user label Q/A pair with the context which was given. Aim to solve the problem "Machine Reading Comprehension".
+#### Input file (write in directory dataset):
+```bash
+sample file: test.json
+format: [{"question":"test","answer":"test}]
+```
+
+#### Run tool:
+```bash
+- Insert json file in dataset directory
+- Run insert_db.py
+- Run main.py (and choose "select answer" tag for labeling) 
+```
+
+#### Export File
+- Run dump.py
