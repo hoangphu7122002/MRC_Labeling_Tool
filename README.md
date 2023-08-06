@@ -13,4 +13,6 @@ format: [{"question":"test","answer":"test}]
 ```
 
 #### Export File
+```bash
 - Run dump.py
+```
